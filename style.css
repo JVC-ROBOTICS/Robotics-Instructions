@@ -70,7 +70,7 @@ ul a{
 
 .i1,.i2,.i3,.i4,.i5,.i6,.i7{
     margin: 30px;
-    border: 2px solid black;
+    border: 4px solid black;
     border-radius: 50px;
     display: flex;
     flex-direction: column;
