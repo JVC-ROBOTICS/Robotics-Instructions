@@ -89,9 +89,9 @@ main a{
 }
 @media screen and (max-width: 957px) {
     main iframe{
-        display: center;
-        float: center;
-        text-align: center;
+        display: none;
+        float: none;
+        text-align: left;
     }
     main a{
         display: block;
