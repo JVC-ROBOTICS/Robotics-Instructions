@@ -87,10 +87,22 @@ ul a{
 main a{
     display:none;
 }
-@media screen and (max-width: 957px) {
-media iframe {
+@media only screen
+  and (max-width: 480px) { 
+      {
         display: none;
         float: none;
         text-align: left;
 
 }
+      
+@media only screen
+  and (min-width: 481px)
+  and (max-width: 957px) {
+        {
+        display: none;
+        float: none;
+        text-align: left;
+
+}
+ 
