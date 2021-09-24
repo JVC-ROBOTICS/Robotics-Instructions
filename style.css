@@ -87,13 +87,13 @@ ul a{
 main a{
     display:none;
 }
-@media screen and (max-width: 591px) {
+@media screen and (max-width: 957px) {
     main iframe{
-        display: none;
-        float: none;
-        text-align: left;
+        display: center;
+        float: center;
+        text-align: center;
     }
     main a{
-        display: block;;
+        display: block;
     }
 }
