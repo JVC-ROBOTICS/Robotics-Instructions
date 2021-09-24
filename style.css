@@ -87,22 +87,37 @@ ul a{
 main a{
     display:none;
 }
-@media only screen
-  and (max-width: 480px) { 
-      {
-        display: none;
-        float: none;
-        text-align: left;
 
-}
-      
+/* your normal css here that should apply to every screen width as well as your desktop css that is not covered with the media queries for mobile and tablet */
+
+@media only screen
+  and (max-width: 480px) { /* <-opening tag media query */
+    /* your mobile css here 
+       as example: */
+
+    .class { /* <-opening tag css selector */
+      background-color: blue;
+    } /* closing tag css selector */
+    
+    #id { /* <-opening tag css selector */
+      background-color: red;
+    } /* closing tag css selector */
+
+} /* <-closing tag media query */
+
 @media only screen
   and (min-width: 481px)
-  and (max-width: 957px) {
-        {
-        display: none;
-        float: none;
-        text-align: left;
+  and (max-width: 957px) { /* <-opening tag media query */
+    /* your tablet css here 
+       as example: */
 
-}
+    .class { /* <-opening tag css selector */
+      background-color: blue;
+    } /* closing tag css selector */
+    
+    #id { /* <-opening tag css selector */
+      background-color: red;
+    } /* closing tag css selector */
+
+} /* <-closing tag media query */
  
