@@ -87,7 +87,7 @@ ul a{
 main a{
     display:none;
 }
-@media screen and (max-width: 591px) {
+@media screen and (max-width: 567px) {
     main iframe{
         display: none;
         float: none;
