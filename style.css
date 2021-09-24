@@ -97,3 +97,14 @@ main a{
         display: block;;
     }
 }
+
+@media screen and (max-width: 967px) {
+    ul{
+        flex:1;
+    }
+    
+    
+    header h2{
+        flex:1.5;
+    }
+}
