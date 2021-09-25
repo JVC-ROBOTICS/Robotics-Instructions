@@ -107,6 +107,7 @@ main a{
     ul{
         flex: 1;
         margin-right: 10px;
+        text-align: right;
     }
 
     header h2{
@@ -127,5 +128,6 @@ main a{
         font-size: 0.7rem;
         font-weight: 200;
         margin-right: 10px;
+        text-align: right;
     }
 }
