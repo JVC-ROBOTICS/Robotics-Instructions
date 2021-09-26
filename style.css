@@ -6,13 +6,13 @@
 }
 
 
-.i1,.i2,.i3,.i4,.i5,.i6,.i7{
+.i1,.i2,.i3,.i4,.i5,.i6{
     height:100vh
      ;
 }
 
 
-.i1 h2,.i2 h2,.i3 h2,.i4 h2,.i5 h2,.i6 h2,.i7 h2{
+.i1 h2,.i2 h2,.i3 h2,.i4 h2,.i5 h2,.i6 h2{
     font-size: 3rem;
     font-weight: 500;
 }
@@ -68,7 +68,7 @@ ul a{
     font-family: 'Scheherazade New', serif;
 }
 
-.i1,.i2,.i3,.i4,.i5,.i6,.i7{
+.i1,.i2,.i3,.i4,.i5,.i6{
     margin: 30px;
     border: 2px solid black;
     border-radius: 50px;
